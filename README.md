@@ -1,5 +1,4 @@
-Google Map Tab
-==============
+# Google Map Tab #
 
 ## Introduction ##
 A plugin that allows you to tab with Google Maps to your posts or pages using a shortcode ([google-map-tab]). 
