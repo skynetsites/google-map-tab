@@ -12,7 +12,7 @@ Um plugin que permite adicionar tab com Google Maps para o seu posts ou páginas
 Para poder adicionar um shortcode no posts ou páginas basta um clique no botão "Inserir Google Map Tab" no editor.
 
 Installation 
-==============
+
 Upload the plugin to the wp-content/plugins folder via FTP or use the default installer Plugins -> Add New and then click the "Send" tab. 
 
 Activate the plugin.
