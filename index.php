@@ -75,6 +75,11 @@ function google_map_tab() {
             <div class="gmap_controls tabs" id="controls-tabs"></div>
           </div>
         </div>
+	 <div class="row">
+	  <div class="four columns">
+	   <div id="info" class="tab-content"></div>
+	  </div>
+	 </div>
         <div class="gmap" id="gmap-tabs"></div>
       </li>
     </ul>
@@ -173,6 +178,9 @@ $(function() {
 	start: <?php echo $start; ?>,
 	map_options: {
 			mapTypeId: google.maps.MapTypeId.<?php echo $map_type; ?>
+	},
+	afterShow: function(index, location, marker) {
+		$('#info').html(location.html);
 	}
  }).Load(); 
 
