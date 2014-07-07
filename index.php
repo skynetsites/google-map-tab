@@ -7,17 +7,18 @@ Author: Isaías Oliveira
 Version: 1.0
 Author URI: https://www.facebook.com/isaiaswebnet
 */
-include 'shortcode_tinymce.php';
-register_activation_hook( __FILE__, 'db_create' );
 
 require 'includes/db-settings.php';
+
+include 'shortcode_tinymce.php';
+register_activation_hook( __FILE__, 'db_create' );
 
 add_action( 'admin_menu', 'plugin_menu' );
 function plugin_menu() {
 	add_menu_page( 'Google Map Tab', 'Google Map Tab', 'manage_options', 'options', 'wp_options',plugin_dir_url( __FILE__ )."/javascripts/images/gmt-icon.png" );
-	add_submenu_page('options','','','manage_options','options','wp_options');
+	add_submenu_page( 'options','','','manage_options','options','wp_options' );
 	add_submenu_page( 'options', 'Adicionar', 'Adicionar', 'manage_options', 'add', 'wp_add' );
-	add_submenu_page('options','Configurações','Configurações','manage_options','settings','wp_options');
+	add_submenu_page( 'options','Configurações','Configurações','manage_options','settings','wp_options');
 }
 
 add_action( 'admin_init', 'register_settings' );
