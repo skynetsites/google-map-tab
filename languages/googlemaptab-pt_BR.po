@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Map Tab v1.0\n"
+"POT-Creation-Date: 2014-07-06 16:57-0300\n"
+"PO-Revision-Date: 2014-07-06 16:58-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\sites\\proinox\\wp-content\\plugins"
+"\\google-map-tab\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: languages\n"
+
+#: add.php:4
+msgid "Add"
+msgstr "Adicionar"
+
+#: add.php:40 add.php:74
+msgid "Successfully Added"
+msgstr "Adicionado com Sucesso"
+
+#: add.php:43 add.php:77
+msgid "Required Fields"
+msgstr "Campos Obrigatórios"
+
+#: add.php:106 add.php:114 add.php:156 add.php:199
+msgid "Title"
+msgstr "Título"
+
+#: add.php:107 add.php:115
+msgid "Detailing"
+msgstr "Detalhamento"
+
+#: add.php:108 add.php:116
+msgid "Actions"
+msgstr "Ações"
+
+#: add.php:134 add.php:161 add.php:204
+msgid "Address"
+msgstr "Endereço"
+
+#: add.php:135 add.php:152 add.php:195
+msgid "Latitude"
+msgstr "Latitude"
+
+#: add.php:135 add.php:152 add.php:195
+msgid "Longitude"
+msgstr "Longitude"
+
+#: add.php:136 add.php:165 add.php:208
+msgid "Zoom"
+msgstr "Zoom"
+
+#: add.php:137
+msgid "Edit"
+msgstr "Editar"
+
+#: add.php:138
+msgid "Delete"
+msgstr "Excluir"
+
+#: add.php:142
+msgid "Please, you need to add the information in the fields below"
+msgstr "Por favor, é necessário adicionar as informações nos campos abaixo"
+
+#: add.php:151 add.php:194
+msgid "Geographic Coordinates"
+msgstr "Coordenadas Geográficas"
+
+#: add.php:174
+msgid "Update"
+msgstr "Atualizar"
+
+#: add.php:176
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+#: add.php:217
+msgid "Insert"
+msgstr "Inserir"
+
+#: settings.php:4
+msgid "Settings"
+msgstr "Configurações"
+
+#: settings.php:19
+msgid "Tab ID"
+msgstr "ID Tab"
+
+#: settings.php:23
+msgid "Width"
+msgstr "Largura"
+
+#: settings.php:24
+msgid "Maximum"
+msgstr "Máxima"
+
+#: settings.php:24
+msgid "Minimum"
+msgstr "Mínima"
+
+#: settings.php:26
+msgid "Height"
+msgstr "Altura"
+
+#: settings.php:29
+msgid "Type of Map"
+msgstr "Tipo de Mapa"
+
+#: settings.php:31
+msgid "Rodmap"
+msgstr "Roteiro"
+
+#: settings.php:32
+msgid "Satellite"
+msgstr "Satélite"
+
+#: settings.php:33
+msgid "Terrain"
+msgstr "Terreno"
+
+#: settings.php:34
+msgid "Hybrid"
+msgstr "Híbrido"
+
+#: settings.php:38
+msgid "View All"
+msgstr "Ver Todos"
+
+#: settings.php:40
+msgid "True"
+msgstr "Mostrar"
+
+#: settings.php:41
+msgid "False"
+msgstr "Ocultar"
+
+#: settings.php:45
+msgid "See All Title"
+msgstr "Título Ver Todos"
+
+#: settings.php:49
+msgid "Active Tab"
+msgstr "Tab Ativo"
+
+#: settings.php:54
+msgid "Save Changes"
+msgstr "Salvar Alterações"
+
+#~ msgid "Lengths"
+#~ msgstr "Comprimentos"
+
+#~ msgid "Information added successfully"
+#~ msgstr "Informações adicionadas com sucesso"
