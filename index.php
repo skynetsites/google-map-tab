@@ -8,8 +8,9 @@ Version: 1.0
 Author URI: https://www.facebook.com/isaiaswebnet
 */
 include 'shortcode_tinymce.php';
-require 'includes/db-settings.php';
 register_activation_hook( __FILE__, 'db_create' );
+
+require 'includes/db-settings.php';
 
 add_action( 'admin_menu', 'plugin_menu' );
 function plugin_menu() {
