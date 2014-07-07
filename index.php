@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Google Map Tab
-Plugin URI: 
+Plugin URI: https://github.com/isaiaswebnet/google-map-tab
 Description: A plugin that allows you to tab with Google Maps to your posts or pages using a shortcode [google-map-tab]. To add a shortcode in posts or pages simply click the Insert Google Map Tab button in the editor..
 Author: Isaías Oliveira
 Version: 1.0
@@ -147,7 +147,7 @@ foreach($itens as $iten):
 	$lat = $iten->lat;
 	$lon = $iten->lon;
 	$title = $iten->title;
-	$content = $iten->content;
+	$content = strip_tags($iten->content);
 	$zoom	= $iten->zoom;
 	if(!$zoom){ $zoom =	'12';}
 ?>
