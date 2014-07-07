@@ -2,7 +2,7 @@
 /*
 Plugin Name: Google Map Tab
 Plugin URI: 
-Description: Só mais um plugin que permite adicionar tabs com Google Maps para o seu post e páginas usando um shortcode ([short-maptab]). Para adicionar tabs para você postar ou páginas basta adicionar este shortcode [short-maptab].
+Description: A plugin that allows you to tab with Google Maps to your posts or pages using a shortcode [google-map-tab]. To add a shortcode in posts or pages simply click the Insert Google Map Tab button in the editor..
 Author: Isaías Oliveira
 Version: 1.0
 Author URI: https://www.facebook.com/isaiaswebnet
