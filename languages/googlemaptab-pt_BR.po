@@ -1,158 +1,243 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Google Map Tab v1.0\n"
-"POT-Creation-Date: 2014-07-06 16:57-0300\n"
-"PO-Revision-Date: 2014-07-06 16:58-0300\n"
+"POT-Creation-Date: 2014-07-14 15:40-0300\n"
+"PO-Revision-Date: 2014-07-14 16:22-0300\n"
 "Last-Translator: \n"
-"Language-Team: \n"
+"Language-Team: Isaías Oliveira <isaiaswebnet@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.6\n"
-"X-Poedit-Basepath: D:\\xampp\\htdocs\\sites\\proinox\\wp-content\\plugins"
-"\\google-map-tab\\\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\www\\mapa\\wp-content\\plugins\\google-"
+"map-tab\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _;__;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: languages\n"
 
-#: add.php:4
+#: WP-3.5-Color-Picker-master/wp-color-picker.php:49
+#: WP-3.5-Color-Picker-master/wp-color-picker.php:50
+#: WP-3.5-Color-Picker-master/wp-color-picker.php:68
+msgid "WP 3.5 Color Picker"
+msgstr ""
+
+#: WP-3.5-Color-Picker-master/wp-color-picker.php:76
+#, fuzzy
+msgid "Save Color"
+msgstr "Estilo de Cor"
+
+#: WP-3.5-Color-Picker-master/wp-color-picker.php:96
+msgid "Choose Your Color"
+msgstr ""
+
+#: WP-3.5-Color-Picker-master/wp-color-picker.php:103
+#, fuzzy
+msgid "Color"
+msgstr "Cores"
+
+#: WP-3.5-Color-Picker-master/wp-color-picker.php:114
+msgid "Use the color picker below to choose your color."
+msgstr ""
+
+#: google-map-tab.php:26 inc/list.php:5
+msgid "List"
+msgstr "Listar"
+
+#: google-map-tab.php:27 inc/add.php:141
 msgid "Add"
 msgstr "Adicionar"
 
-#: add.php:40 add.php:74
-msgid "Successfully Added"
-msgstr "Adicionado com Sucesso"
-
-#: add.php:43 add.php:77
-msgid "Required Fields"
-msgstr "Campos Obrigatórios"
-
-#: add.php:106 add.php:114 add.php:156 add.php:199
-msgid "Title"
-msgstr "Título"
-
-#: add.php:107 add.php:115
-msgid "Detailing"
-msgstr "Detalhamento"
-
-#: add.php:108 add.php:116
-msgid "Actions"
-msgstr "Ações"
-
-#: add.php:134 add.php:161 add.php:204
-msgid "Address"
-msgstr "Endereço"
-
-#: add.php:135 add.php:152 add.php:195
-msgid "Latitude"
-msgstr "Latitude"
-
-#: add.php:135 add.php:152 add.php:195
-msgid "Longitude"
-msgstr "Longitude"
-
-#: add.php:136 add.php:165 add.php:208
-msgid "Zoom"
-msgstr "Zoom"
-
-#: add.php:137
-msgid "Edit"
-msgstr "Editar"
-
-#: add.php:138
-msgid "Delete"
-msgstr "Excluir"
-
-#: add.php:142
-msgid "Please, you need to add the information in the fields below"
-msgstr "Por favor, é necessário adicionar as informações nos campos abaixo"
-
-#: add.php:151 add.php:194
-msgid "Geographic Coordinates"
-msgstr "Coordenadas Geográficas"
-
-#: add.php:174
-msgid "Update"
-msgstr "Atualizar"
-
-#: add.php:176
-msgid "Add New"
-msgstr "Adicionar Novo"
-
-#: add.php:217
-msgid "Insert"
-msgstr "Inserir"
-
-#: settings.php:4
+#: google-map-tab.php:28 inc/settings.php:5
 msgid "Settings"
 msgstr "Configurações"
 
-#: settings.php:19
+#: inc/add.php:34
+msgid "Successfully Added."
+msgstr "Adicionado com Sucesso."
+
+#: inc/add.php:37 inc/add.php:66
+msgid "Required Fields."
+msgstr "Campos Obrigatórios."
+
+#: inc/add.php:63
+msgid "Successfully Updated."
+msgstr "Atualizado com Sucesso."
+
+#: inc/add.php:84 inc/list.php:84
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/add.php:85 inc/list.php:6
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+#: inc/add.php:100 inc/add.php:157
+msgid ""
+"With this tool you can easily find out the geographic coordinates of a point/"
+"area. Click to start."
+msgstr ""
+"Com esta ferramenta você pode facilmente descobrir as coordenadas "
+"geográficas de um ponto/área. Clique para começar."
+
+#: inc/add.php:101 inc/add.php:158
+msgid "Geographic Coordinates"
+msgstr "Coordenadas Geográficas"
+
+#: inc/add.php:106 inc/add.php:163 inc/list.php:91
+msgid "Latitude"
+msgstr "Latitude"
+
+#: inc/add.php:106 inc/add.php:163 inc/list.php:93
+msgid "Longitude"
+msgstr "Longitude"
+
+#: inc/add.php:111 inc/add.php:168 inc/list.php:50 inc/list.php:61
+msgid "Title"
+msgstr "Título"
+
+#: inc/add.php:118 inc/add.php:175 inc/list.php:88
+msgid "Address"
+msgstr "Endereço"
+
+#: inc/add.php:121 inc/add.php:178
+msgid "Use the tag &lt;br /&gt; for line break."
+msgstr "Use a tag &lt;br /&gt; para quebra de linha."
+
+#: inc/add.php:125 inc/add.php:182 inc/list.php:96
+msgid "Zoom"
+msgstr "Zoom"
+
+#: inc/add.php:134
+msgid "Update"
+msgstr "Atualizar"
+
+#: inc/add.php:145
+msgid "See List"
+msgstr "Ver Lista"
+
+#: inc/add.php:191
+msgid "Insert"
+msgstr "Inserir"
+
+#: inc/list.php:33
+msgid "Successfully Deleted."
+msgstr "Excluído com Sucesso."
+
+#: inc/list.php:53 inc/list.php:64
+msgid "Detailing"
+msgstr "Detalhamento"
+
+#: inc/list.php:85
+msgid "Delete"
+msgstr "Excluir"
+
+#: inc/list.php:101
+msgid "Please, you need to add the information in the fields below."
+msgstr "Por favor, é necessário adicionar as informações nos campos abaixo."
+
+#: inc/settings.php:9
+msgid "Saved Settings."
+msgstr "Configurações Salvas."
+
+#: inc/settings.php:30
+msgid "General"
+msgstr "Geral"
+
+#: inc/settings.php:31
+msgid "Structure"
+msgstr "Estrutura"
+
+#: inc/settings.php:32
+msgid "Colors"
+msgstr "Cores"
+
+#: inc/settings.php:38
 msgid "Tab ID"
 msgstr "ID Tab"
 
-#: settings.php:23
+#: inc/settings.php:42
 msgid "Width"
 msgstr "Largura"
 
-#: settings.php:24
+#: inc/settings.php:43
 msgid "Maximum"
 msgstr "Máxima"
 
-#: settings.php:24
+#: inc/settings.php:44
 msgid "Minimum"
 msgstr "Mínima"
 
-#: settings.php:26
+#: inc/settings.php:47
 msgid "Height"
 msgstr "Altura"
 
-#: settings.php:29
+#: inc/settings.php:57
 msgid "Type of Map"
 msgstr "Tipo de Mapa"
 
-#: settings.php:31
+#: inc/settings.php:60
 msgid "Rodmap"
 msgstr "Roteiro"
 
-#: settings.php:32
+#: inc/settings.php:63
 msgid "Satellite"
 msgstr "Satélite"
 
-#: settings.php:33
+#: inc/settings.php:66
 msgid "Terrain"
 msgstr "Terreno"
 
-#: settings.php:34
+#: inc/settings.php:69
 msgid "Hybrid"
 msgstr "Híbrido"
 
-#: settings.php:38
+#: inc/settings.php:74
 msgid "View All"
 msgstr "Ver Todos"
 
-#: settings.php:40
+#: inc/settings.php:77 inc/settings.php:93
 msgid "True"
 msgstr "Mostrar"
 
-#: settings.php:41
+#: inc/settings.php:80 inc/settings.php:96
 msgid "False"
 msgstr "Ocultar"
 
-#: settings.php:45
+#: inc/settings.php:85
 msgid "See All Title"
 msgstr "Título Ver Todos"
 
-#: settings.php:49
-msgid "Active Tab"
-msgstr "Tab Ativo"
+#: inc/settings.php:90
+msgid "Info"
+msgstr "Informações"
 
-#: settings.php:54
+#: inc/settings.php:107
+msgid "Background Color"
+msgstr "Cor do Fundo"
+
+#: inc/settings.php:111
+msgid "Text Color"
+msgstr "Cor do Texto"
+
+#: inc/settings.php:115
+msgid "Active Tab Color"
+msgstr "Cor da Aba Ativa"
+
+#: inc/settings.php:125
 msgid "Save Changes"
 msgstr "Salvar Alterações"
+
+#~ msgid "Font"
+#~ msgstr "Fonte"
+
+#~ msgid "Layout"
+#~ msgstr "Layout"
+
+#~ msgid "Actions"
+#~ msgstr "Ações"
 
 #~ msgid "Lengths"
 #~ msgstr "Comprimentos"

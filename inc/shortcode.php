@@ -12,7 +12,7 @@ function gmt_add_tinymce() {
 
 function gmt_add_tinymce_plugin( $plugin_array ) {
 
-    $plugin_array['gmt_tab'] = plugins_url( '/javascripts/tinymce-button.js', __FILE__ );
+    $plugin_array['gmt_tab'] = plugin_dir_url( __FILE__ ) . 'js/tinymce-button.js';
     //var_dump( $plugin_array );
     return $plugin_array;
 }

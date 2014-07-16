@@ -779,8 +779,8 @@ var jscolor = {
 
 			// load images in optimal order
 			switch(modeID) {
-				case 0: var padImg = 'hs.png'; break;
-				case 1: var padImg = 'hv.png'; break;
+				case 0: var padImg = 'images/hs.png'; break;
+				case 1: var padImg = 'images/hv.png'; break;
 			}
 			p.padM.style.backgroundImage = "url('"+jscolor.getDir()+"cross.gif')";
 			p.padM.style.backgroundRepeat = "no-repeat";
