@@ -1,10 +1,15 @@
 === Google Map Tab ===
 
 Contributors: Isaías Oliveira 
+
 Donate link: https://pagseguro.uol.com.br/checkout/doacao.jhtml?email_cobranca=isaiasskynet@hotmail.com&moeda=BRL
+
 Tags: editor, shortcode, tabs, jquery, jquery-tabs, api, map, google map
+
 Requires at least: 3.0
+
 Tested up to: 3.9
+
 Stable tag: 1.0
 
 A plugin that allows you to tab with Google Maps
