@@ -1,4 +1,4 @@
-( function($) {
+jQuery(document).ready( function($) {
 	$('.wp-tab-bar a').click(function(event){
 		event.preventDefault();
 		
