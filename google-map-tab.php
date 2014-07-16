@@ -68,9 +68,9 @@ function front_scripts() {
 	wp_enqueue_script( 'maplace-0.1.3.min', plugins_url('/inc/js/maplace.min.js', __FILE__) , array(), '', true );
 }
 
-/**
+/*
 * includes
-**/
+*/
 
 // inc page settings
 function wp_options() { 
