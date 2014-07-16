@@ -131,11 +131,11 @@ function script_script() {
 	$start = $view_all=='true'?'0':'1';
 ?>
 <style>
-#<?php echo $id_tabs;?> {width:<?php echo $max_width;?>px;max-width:100%;min-width:<?php echo $min_width;?>px;margin:0 auto}
+#<?php echo $id_tabs;?> {font-size:14px !important; width:<?php echo $max_width;?>px;max-width:100%;min-width:<?php echo $min_width;?>px;margin:0 auto}
 #<?php echo $id_tabs;?> .gmap {height: <?php echo $height;?>px !important;}
-#<?php echo $id_tabs;?> h3 {margin: 10px 0 5px 0 !important;line-height: 1 !important}
-#<?php echo $id_tabs;?> p {margin: 0 0 5px 0 !important;}
-#<?php echo $id_tabs;?> .tabs li.active {border-top: 3px solid #<?php echo $active;?>  !important;}
+#<?php echo $id_tabs;?> h1,#<?php echo $id_tabs;?> h2,#<?php echo $id_tabs;?> h3,#<?php echo $id_tabs;?> h4,#<?php echo $id_tabs;?> h5#<?php echo $id_tabs;?> h5 {margin: 10px 0 5px 0 !important;line-height: 1 !important}
+#<?php echo $id_tabs;?> p {margin: 0 0 5px 0 !important;line-height: 1.4 !important;}
+#<?php echo $id_tabs;?> .tabs li.active {border-top: 3px solid #<?php echo $active;?> !important;}
 </style>
 <script type="text/jscript">
 var Tabs = [
