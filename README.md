@@ -1,4 +1,5 @@
 === Google Map Tab ===
+
 Contributors: Isaías Oliveira 
 Donate link: https://pagseguro.uol.com.br/checkout/doacao.jhtml?email_cobranca=isaiasskynet@hotmail.com&moeda=BRL
 Tags: editor, shortcode, tabs, jquery, jquery-tabs, api, map, google map
